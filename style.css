@@ -1,0 +1,33 @@
+* {
+    background-color: rgb(0, 0, 0);
+}
+.Contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px 200px;
+    gap: 10px;
+    width: 800px;
+}
+.Contenedor .item {
+    font-size: 30px;
+    background-color:blue;
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-rows: 66px 66px 66px;
+}
+
+.Contenedor .input {
+    display: grid;
+    grid-column: 1/4;
+}
+
+.Contenedor .itemo {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: cadetblue;
+    align-items: center;
+    justify-items: center;
+    font-size: 50px;
+}
